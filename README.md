@@ -8,8 +8,7 @@ Any code reviews, questions, and comments would be greatly appreciated.
 
 The concepts highlighted in the project:  
 
-This project incorporates the following concepts. 
-Object-Oriented Design: OOP in this project is used primarily for abstraction and clarity rather than reuse. For example, the Graphics class extends JFrame to handle rendering, and the Controls class extends MouseListener to manage user input. These inheritance relationships help clearly define the roles and responsibilities of each class, improving readability and organization without overcomplicating reuse.
+Object-Oriented Design: OOP in this project is used primarily for abstraction and clarity rather than reuse. For example, the Graphics class extends JFrame to handle rendering, and the Controls class extends MouseListener to manage user input. These inheritance relationships help clearly define the roles and responsibilities of each class, improving readability and organization.
 
 
 Data Structures: A HashMap is used to efficiently track objects like mirrors, and I implemented custom equals and hashCode methods to ensure that mirror objects are treated as duplicates when they share the same (x, y) position, even if other fields (like rotation) differ. I considered using Java's record type for this, but chose a traditional class because the mirror’s rotation is mutable, and records are inherently immutable.
@@ -75,5 +74,5 @@ PostgreSQL
 Maven, and related tooling
 
 
-While I’ve already worked with these technologies independently, I believe that working with the right team will elevate my skills and prepare me for long-term success in the industry.
+While I’ve already worked with these technologies independently, I believe that working with the right team will elevate my skills. 
 
